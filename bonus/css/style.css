@@ -30,6 +30,20 @@ button{
     border-style: none;
 }
 
+button:hover{
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
+
+.title button:last-child:hover{
+    background-color: crimson;
+}
+
+ul{
+    list-style: none;
+}
+
 /* HEADER */
 /* SEZIONE LOGO E LINKS */
 header{
@@ -57,7 +71,6 @@ header{
 }
 
 header ul{
-    list-style: none;
     justify-content: center;
 }
 
@@ -190,15 +203,16 @@ footer{
     margin-bottom: 20px;
 }
 
-.social > img{
+.social img{
     height: 1em;
     vertical-align: middle;
 }
 
-.social > span{
+.social  a{
     color: white;
     vertical-align: middle;
     font-size: 0.7em;
+    text-decoration: none;
 }
 
 .social > .icons{
@@ -210,16 +224,53 @@ i + i{
     margin-left: 15px;
 }
 
+.icons > i:hover{
+    cursor: pointer;
+    color: #8ea1e1;
+}
+
+.social a{
+    display: inline-block;
+}
+
+.social li{
+    display: inline-block;
+}
+
+.social li:hover{
+    background-color: #23272a;
+}
+
+.social li:hover ul{
+    display: block;
+}
+
+ .social ul li ul {
+    position: absolute;
+    display: none;
+  }
+
+.social ul li ul li { 
+    display: block; 
+    background-color: #23272a;
+}
+
+.language{
+    display: block;
+    background-color: #23272a;
+    color: white;
+    font-size: 0.7em;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+
 .links-group{
     width: 70%;
 }
 
 .links{
     width: 25%;
-}
-
-.links > ul{
-    list-style: none;
 }
 
 .links .head-link{
@@ -260,21 +311,8 @@ hr{
     padding: 10px 15px;
 }
 
-/* BONUS */
-button:hover{
-    background-color: crimson;
-    color: white;
-    cursor: pointer;
-}
 
-.title button:last-child:hover{
-    background-color: crimson;
-}
 
-.icons > i:hover{
-    cursor: pointer;
-    color: #8ea1e1;
-}
 
 
 /* DEBUG */
