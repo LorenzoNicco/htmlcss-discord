@@ -121,10 +121,20 @@ main .container-flex{
 
 .white-background{
     padding: 30px 0;
+    margin-top: 100px;
 }
 .gray-background{
     background-color: #d3d3d3;
     padding: 30px 0;
+}
+
+.wave-gray{
+    color: #d3d3d3;
+}
+
+.wave-white{
+    color: white;
+    background-color: #d3d3d3;
 }
 
 .column-img{
@@ -212,16 +222,20 @@ i + i{
     list-style: none;
 }
 
-.links > ul:first-child{
+.links .head-link{
     color: #8ea1e1;
 }
 
-.links li + li{
+.links .white-link{
     color: white;
 }
 
 .links li{
     margin-bottom: 1em;
+}
+
+.links a{
+    text-decoration: none;
 }
 
 hr{
