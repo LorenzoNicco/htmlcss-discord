@@ -260,7 +260,21 @@ hr{
     padding: 10px 15px;
 }
 
+/* BONUS */
+button:hover{
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
 
+.title button:last-child:hover{
+    background-color: crimson;
+}
+
+.icons > i:hover{
+    cursor: pointer;
+    color: #8ea1e1;
+}
 
 
 /* DEBUG */
