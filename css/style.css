@@ -56,7 +56,7 @@ header{
     justify-content: end;
 }
 
-ul{
+header ul{
     list-style: none;
     justify-content: center;
 }
@@ -148,7 +148,7 @@ h2{
     margin-bottom: 100px;
 }
 
-h3{
+ main h3{
     font-size: 1.5em;
     background-image: url("../img/stars.svg");
     background-size: contain;
@@ -166,11 +166,42 @@ h3{
 
 /* FOOTER */
 /* SEZIONE COLLEGAMENTI */
-footer > nav{
-    padding: 10px 0 30px;
+footer{
+    background-color: #23272a;
 }
+
+footer > nav{
+    padding: 60px 0 30px;
+}
+
 .social{
     width: 30%;
+}
+
+.social > h3{
+    color: #8ea1e1;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.social > img{
+    height: 1em;
+    vertical-align: middle;
+}
+
+.social > span{
+    color: white;
+    vertical-align: middle;
+    font-size: 0.7em;
+}
+
+.social > .icons{
+    color: white;
+    margin-top: 15px;
+}
+
+i + i{
+    margin-left: 15px;
 }
 
 .links-group{
@@ -180,6 +211,7 @@ footer > nav{
 .links{
     width: 25%;
 }
+
 hr{
     color: #c1c2c2;
     height: 2px;
