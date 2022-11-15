@@ -26,8 +26,8 @@
 }
 
 button{
-    padding: 5px;
-    border-radius: 25%;
+    padding: 10px;
+    border-style: none;
 }
 
 /* HEADER */
@@ -73,7 +73,7 @@ header a{
 
 .header-line > button{
     border-color: white;
-    border-style: none;
+    border-radius: 20px;
 }
 
 /* SEZIONE TITOLO */
