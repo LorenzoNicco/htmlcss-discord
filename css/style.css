@@ -168,12 +168,8 @@ h2{
 /* SEZIONE COLLEGAMENTI */
 footer{
     background-color: #23272a;
+    padding: 80px 0;
 }
-
-footer > nav{
-    padding: 60px 0 30px;
-}
-
 .social{
     width: 30%;
 }
@@ -212,10 +208,29 @@ i + i{
     width: 25%;
 }
 
-hr{
-    color: #c1c2c2;
-    height: 2px;
+.links > ul{
+    list-style: none;
 }
+
+.links > ul:first-child{
+    color: #8ea1e1;
+}
+
+.links li + li{
+    color: white;
+}
+
+.links li{
+    margin-bottom: 1em;
+}
+
+hr{
+    border-color: #8ea1e1;
+    height: 2px;
+    max-width: 1200px;
+    margin: 30px auto 0;
+}
+
 /* SEZIONE FINALE */
 .container-flex.final{
     justify-content: space-between;
@@ -224,8 +239,11 @@ hr{
     margin-top: 20px;
 }
 
-.final > div{
-    padding: 10px;
+.final > button{
+    color: white;
+    background-color: #8ea1e1;
+    border-radius: 20px;
+    padding: 10px 15px;
 }
 
 
