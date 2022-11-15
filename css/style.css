@@ -115,6 +115,10 @@ header .buttons{
 
 /* SEZIONE CENTRALE */
 /* SEZIONI ROW */
+main .container-flex{
+    justify-content: space-between;
+}
+
 .white-background{
     padding: 30px 0;
 }
@@ -123,17 +127,24 @@ header .buttons{
     padding: 30px 0;
 }
 
-.blue-square{
-    width: 60%;
+.column-img{
+    width: 70%;
 }
 
-.pink-square{
-    width: 40%;
+.column-text{
+    width: 30%;
+    padding: 25px;
+}
+
+h2{
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 
 /* SEZIONE COLUMN */
-.green-square{
+.big-column{
     width: 100%;
+    text-align: center;
 }
 
 /* FOOTER */
@@ -190,19 +201,19 @@ hr{
     height: 300px;
 }
 
-.debug .blue-square{
+.debug .column-img{
     background-color: #1e90ff;
     border: 2px dashed black;
     height: 400px;
 }
 
-.debug .pink-square{
+.debug .column-text{
     background-color: #ffc0cb;
     border: 2px dashed black;
     height: 400px;
 }
 
-.debug .green-square{
+.debug .big-column{
     background-color: #228b22;
     border: 2px dashed black;
     height: 600px;
