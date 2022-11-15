@@ -145,6 +145,23 @@ h2{
 .big-column{
     width: 100%;
     text-align: center;
+    margin-bottom: 100px;
+}
+
+h3{
+    font-size: 1.5em;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 30px;
+}
+
+.big-column button{
+    background-color: #8ea1e1;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
 }
 
 /* FOOTER */
@@ -152,12 +169,16 @@ h2{
 footer > nav{
     padding: 10px 0 30px;
 }
-.rosa-square{
-    width: calc(100% / 3);
+.social{
+    width: 30%;
 }
 
-.azzurro-square{
-    width: calc(100% /6);
+.links-group{
+    width: 70%;
+}
+
+.links{
+    width: 25%;
 }
 hr{
     color: #c1c2c2;
@@ -223,13 +244,13 @@ hr{
     background-color: #23272a;
 }
 
-.debug .rosa-square{
+.debug .social{
     background-color: #f08080;
     border: 2px dashed black;
     height: 400px;
 }
 
-.debug .azzurro-square{
+.debug .links{
     background-color: #20b2aa;
     border: 2px dashed white;
     height: 400px;
